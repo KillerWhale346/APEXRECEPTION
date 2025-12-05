@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Apex Reception – Pricing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Transparent pricing for Apex Reception. Choose a plan that fits your call volume and growth stage."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <div class="brand-mark">
+            <img src="images/apex-logo-mark.png" alt="Apex Reception logo" />
+          </div>
+          <div>
+            <div class="brand-text-primary">Apex Reception</div>
+            <div class="brand-text-secondary">AI Reception Suite</div>
+          </div>
+        </a>
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+          </button>
+          <div class="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="features.html">Features</a>
+            <a class="nav-link active" href="pricing.html">Pricing</a>
+            <a class="nav-link" href="book.html">Book Appointment</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+          <a class="nav-cta" href="book.html">Talk to our team →</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="site-wrapper">
+        <section class="section">
+          <div class="section-header">
+            <div class="section-kicker">Pricing</div>
+            <h1 class="section-title">Plans that scale with your call volume.</h1>
+            <p class="section-subtitle">
+              Every plan includes AI call handling, appointment booking and lead capture. Pricing
+              below is an example structure – you can customize this for your business model.
+            </p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="plan">
+              <div class="plan-label">Starter</div>
+              <h2 class="plan-title">Solo office</h2>
+              <div class="plan-price">$299<span style="font-size: 13px">/month</span></div>
+              <div class="plan-sub">Up to 1,000 AI-handled minutes / month.</div>
+              <ul>
+                <li><span class="check">✔</span> Single business number</li>
+                <li><span class="check">✔</span> Standard greeting & scripting</li>
+                <li><span class="check">✔</span> Appointment booking for one calendar</li>
+                <li><span class="check">✔</span> Email summaries after each call</li>
+              </ul>
+              <a class="btn-primary plan-cta" href="book.html">Start with Starter</a>
+            </article>
+
+            <article class="plan popular">
+              <div class="plan-label">Most popular</div>
+              <h2 class="plan-title">Growth</h2>
+              <div class="plan-price">$699<span style="font-size: 13px">/month</span></div>
+              <div class="plan-sub">Up to 3,000 AI-handled minutes / month.</div>
+              <ul>
+                <li><span class="check">✔</span> Multiple business numbers & locations</li>
+                <li><span class="check">✔</span> Custom scripts per department</li>
+                <li><span class="check">✔</span> Calendar integrations for multiple staff</li>
+                <li><span class="check">✔</span> CRM / Zapier / webhook integrations</li>
+                <li><span class="check">✔</span> Priority onboarding & support</li>
+              </ul>
+              <a class="btn-primary plan-cta" href="book.html">Talk about Growth</a>
+            </article>
+
+            <article class="plan">
+              <div class="plan-label">Enterprise</div>
+              <h2 class="plan-title">High volume</h2>
+              <div class="plan-price">Let’s talk</div>
+              <div class="plan-sub">
+                For multi-location, high-volume operations or custom compliance needs.
+              </div>
+              <ul>
+                <li><span class="check">✔</span> Custom minute bundles</li>
+                <li><span class="check">✔</span> Dedicated account & success manager</li>
+                <li><span class="check">✔</span> SSO, audit-ready logging, custom SLAs</li>
+                <li><span class="check">✔</span> White-label & reseller options</li>
+              </ul>
+              <a class="btn-primary plan-cta" href="contact.html">Contact sales</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="form-card">
+            <div class="section-header">
+              <div class="section-kicker">Not sure where to start?</div>
+              <h2 class="section-title">We’ll map a plan to your call volume.</h2>
+              <p class="section-subtitle">
+                Share your approximate monthly minutes and how you handle calls today. We’ll come
+                back with a suggested plan, projected savings and a rollout timeline.
+              </p>
+            </div>
+            <a href="book.html" class="btn-primary">Get a custom quote →</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>© <span id="year"></span> Apex Reception.</span>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
